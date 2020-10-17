@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B82DBB5253ABC57006405B1 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBB4253ABC57006405B1 /* Blocks.swift */; };
+		9B82DBB9253ABCA7006405B1 /* TextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBB8253ABCA7006405B1 /* TextBlock.swift */; };
+		9B82DBBD253ABD63006405B1 /* ImageLinkBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBBC253ABD63006405B1 /* ImageLinkBlock.swift */; };
+		9B82DBC1253ABE0A006405B1 /* ButtonBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBC0253ABE0A006405B1 /* ButtonBlock.swift */; };
+		9B82DBC5253ABFFC006405B1 /* DividerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBC4253ABFFC006405B1 /* DividerBlock.swift */; };
+		9B82DBC9253AC04A006405B1 /* HeaderBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBC8253AC04A006405B1 /* HeaderBlock.swift */; };
+		9B82DBCD253AC108006405B1 /* ActionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBCC253AC108006405B1 /* ActionBlock.swift */; };
+		9B82DBD7253AC2AD006405B1 /* DescriptionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBD6253AC2AD006405B1 /* DescriptionBlock.swift */; };
+		9B82DBDB253AC395006405B1 /* SectionBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBDA253AC395006405B1 /* SectionBlock.swift */; };
+		9B82DBDF253AC3FF006405B1 /* ContextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBDE253AC3FF006405B1 /* ContextBlock.swift */; };
+		9B82DBE3253AC46B006405B1 /* LabelBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBE2253AC46B006405B1 /* LabelBlock.swift */; };
+		9B82DBE7253AC4DC006405B1 /* InputBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBE6253AC4DC006405B1 /* InputBlock.swift */; };
+		9B82DBEB253AC563006405B1 /* SelectBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBEA253AC563006405B1 /* SelectBlock.swift */; };
+		9B82DBF3253AC9EF006405B1 /* BlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82DBF2253AC9EF006405B1 /* BlockTests.swift */; };
 		9BF3A0F3253ABB83001A1890 /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF3A0E9253ABB83001A1890 /* Domain.framework */; };
 		9BF3A0F8253ABB83001A1890 /* DomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3A0F7253ABB83001A1890 /* DomainTests.swift */; };
 		9BF3A0FA253ABB83001A1890 /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF3A0EC253ABB83001A1890 /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B82DBB4253ABC57006405B1 /* Blocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blocks.swift; sourceTree = "<group>"; };
+		9B82DBB8253ABCA7006405B1 /* TextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBlock.swift; sourceTree = "<group>"; };
+		9B82DBBC253ABD63006405B1 /* ImageLinkBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLinkBlock.swift; sourceTree = "<group>"; };
+		9B82DBC0253ABE0A006405B1 /* ButtonBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBlock.swift; sourceTree = "<group>"; };
+		9B82DBC4253ABFFC006405B1 /* DividerBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerBlock.swift; sourceTree = "<group>"; };
+		9B82DBC8253AC04A006405B1 /* HeaderBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBlock.swift; sourceTree = "<group>"; };
+		9B82DBCC253AC108006405B1 /* ActionBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionBlock.swift; sourceTree = "<group>"; };
+		9B82DBD6253AC2AD006405B1 /* DescriptionBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionBlock.swift; sourceTree = "<group>"; };
+		9B82DBDA253AC395006405B1 /* SectionBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBlock.swift; sourceTree = "<group>"; };
+		9B82DBDE253AC3FF006405B1 /* ContextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextBlock.swift; sourceTree = "<group>"; };
+		9B82DBE2253AC46B006405B1 /* LabelBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelBlock.swift; sourceTree = "<group>"; };
+		9B82DBE6253AC4DC006405B1 /* InputBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBlock.swift; sourceTree = "<group>"; };
+		9B82DBEA253AC563006405B1 /* SelectBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBlock.swift; sourceTree = "<group>"; };
+		9B82DBF2253AC9EF006405B1 /* BlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockTests.swift; sourceTree = "<group>"; };
 		9BF3A0E9253ABB83001A1890 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF3A0EC253ABB83001A1890 /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		9BF3A0ED253ABB83001A1890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +78,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B82DBB3253ABC3A006405B1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9B82DBEE253AC6EB006405B1 /* Blocks */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		9B82DBEE253AC6EB006405B1 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				9B82DBB4253ABC57006405B1 /* Blocks.swift */,
+				9B82DBB8253ABCA7006405B1 /* TextBlock.swift */,
+				9B82DBBC253ABD63006405B1 /* ImageLinkBlock.swift */,
+				9B82DBC0253ABE0A006405B1 /* ButtonBlock.swift */,
+				9B82DBC4253ABFFC006405B1 /* DividerBlock.swift */,
+				9B82DBC8253AC04A006405B1 /* HeaderBlock.swift */,
+				9B82DBCC253AC108006405B1 /* ActionBlock.swift */,
+				9B82DBD6253AC2AD006405B1 /* DescriptionBlock.swift */,
+				9B82DBDA253AC395006405B1 /* SectionBlock.swift */,
+				9B82DBDE253AC3FF006405B1 /* ContextBlock.swift */,
+				9B82DBE2253AC46B006405B1 /* LabelBlock.swift */,
+				9B82DBE6253AC4DC006405B1 /* InputBlock.swift */,
+				9B82DBEA253AC563006405B1 /* SelectBlock.swift */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		9B82DBF1253AC9AD006405B1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9B82DBF2253AC9EF006405B1 /* BlockTests.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		9BF3A0DF253ABB83001A1890 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +135,7 @@
 		9BF3A0EB253ABB83001A1890 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				9B82DBB3253ABC3A006405B1 /* Entities */,
 				9BF3A0EC253ABB83001A1890 /* Domain.h */,
 				9BF3A0ED253ABB83001A1890 /* Info.plist */,
 			);
@@ -80,6 +145,7 @@
 		9BF3A0F6253ABB83001A1890 /* DomainTests */ = {
 			isa = PBXGroup;
 			children = (
+				9B82DBF1253AC9AD006405B1 /* Entities */,
 				9BF3A0F7253ABB83001A1890 /* DomainTests.swift */,
 				9BF3A0F9253ABB83001A1890 /* Info.plist */,
 			);
@@ -147,6 +213,7 @@
 				TargetAttributes = {
 					9BF3A0E8253ABB83001A1890 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					9BF3A0F1253ABB83001A1890 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -194,6 +261,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B82DBD7253AC2AD006405B1 /* DescriptionBlock.swift in Sources */,
+				9B82DBC9253AC04A006405B1 /* HeaderBlock.swift in Sources */,
+				9B82DBDB253AC395006405B1 /* SectionBlock.swift in Sources */,
+				9B82DBB9253ABCA7006405B1 /* TextBlock.swift in Sources */,
+				9B82DBEB253AC563006405B1 /* SelectBlock.swift in Sources */,
+				9B82DBC5253ABFFC006405B1 /* DividerBlock.swift in Sources */,
+				9B82DBCD253AC108006405B1 /* ActionBlock.swift in Sources */,
+				9B82DBE3253AC46B006405B1 /* LabelBlock.swift in Sources */,
+				9B82DBBD253ABD63006405B1 /* ImageLinkBlock.swift in Sources */,
+				9B82DBB5253ABC57006405B1 /* Blocks.swift in Sources */,
+				9B82DBC1253ABE0A006405B1 /* ButtonBlock.swift in Sources */,
+				9B82DBE7253AC4DC006405B1 /* InputBlock.swift in Sources */,
+				9B82DBDF253AC3FF006405B1 /* ContextBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B82DBF3253AC9EF006405B1 /* BlockTests.swift in Sources */,
 				9BF3A0F8253ABB83001A1890 /* DomainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +422,7 @@
 		9BF3A0FE253ABB83001A1890 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2ABNASUGL6;
@@ -357,6 +439,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gearmamn06.Domain;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +448,7 @@
 		9BF3A0FF253ABB83001A1890 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2ABNASUGL6;
@@ -389,6 +473,7 @@
 		9BF3A101253ABB83001A1890 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ABNASUGL6;
 				INFOPLIST_FILE = DomainTests/Info.plist;
@@ -407,6 +492,7 @@
 		9BF3A102253ABB83001A1890 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ABNASUGL6;
 				INFOPLIST_FILE = DomainTests/Info.plist;
